@@ -1,0 +1,140 @@
+* {
+  box-sizing: border-box;
+}
+	.bg-img{
+		text-align: center;
+		height: 100vh;
+		background-image: url('./images/1.jpg');
+		color: white;
+		/* filter: blur(3px);
+		filter: blur(3px); */
+		background-attachment: fixed;
+		background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+
+	}
+	.bgtr{
+		background-color: rgba(3, 50, 120, 0.4);
+		height: 100vh;
+	}
+	.bg-text{
+		
+		
+		position: absolute;
+		margin: 200px;
+	}
+	nav strong{
+		font-size: 30px;
+	}
+	nav ul li a{
+
+         padding: 30px;
+         font-size: 10px;
+         position: relative;
+         top: 12px;
+         font-weight: bold!important;
+	}
+	i{
+		font-size: 50px!important;
+		
+		color: #28a745;
+	
+		/* background-color: red; */
+	}
+	.container2{
+		background-color: #f2f2f2;
+
+	}
+	.container3{
+		/* background-color: blue ; */
+		padding: 30px;
+		font-size: 10px;
+		color: white;
+
+
+	}
+	footer{
+		background-color: #314E6B ;
+	}
+	.sdiv .row .col img{
+		height: 200px;
+		width: 100%;
+	}
+ .btt-text{
+ 	text-align: center;
+ 	padding: 100px;
+ }
+
+ .flexcon{
+ 	
+ 	display: flex;
+    flex-wrap: wrap;
+    /* flex-direction:column; */
+    /* justify-content: center; */
+}
+ .flexcon >div{
+             
+             
+             margin: 1px;
+             text-align: center;
+             flex-grow: 1;
+             flex-shrink: 1;
+             flex-basis: 70px;
+            
+        }
+        .flexcon >div img{
+        	width: 100%;
+        	height: 70px;
+        }
+.f2{
+  background-color:#1A3651 ;
+}
+
+        
+
+
+/* ---------------------------slick--------------- */
+	 /* html, body {
+      margin: 0;
+      padding: 0;
+    } */
+    .slider {
+        width: 95%;
+        margin: 5px auto;
+    }
+
+    .slick-slide {
+      margin: 20px 10px;
+    }
+
+    .slick-slide img {
+      width: 100%;
+      height: 120px;
+    }
+
+    .slick-prev:before,
+    .slick-next:before {
+      color: transparent;
+      background-color: transparent;
+    }
+
+
+    /* .slick-slide {
+      transition: all ease-in-out .3s;
+      opacity: .2;
+    } */
+    
+    /* .slick-active {
+      opacity: .5;
+    }
+
+    .slick-current {
+      opacity: 1;
+    } */
+
+
+
+
+/* ---------------------------slick--------------- */
